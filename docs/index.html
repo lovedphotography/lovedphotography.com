@@ -1,0 +1,741 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Boudoir Photography Cyprus | Empowering Photoshoots | Loved Photography
+    </title>
+    <meta
+      name="description"
+      content="Professional boudoir photography in Cyprus. Empowering, intimate photoshoots in Paphos, Limassol, Larnaca, Nicosia & Ayia Napa. Celebrate your confidence & sensuality. Book your free consultation."
+    />
+    <meta
+      name="keywords"
+      content="boudoir photography Cyprus, women's photoshoot Cyprus, sensual photography, confidence photoshoot, intimate photography, Paphos photographer, Limassol photographer, Larnaca, Nicosia, Ayia Napa"
+    />
+    <meta name="author" content="Loved Photography" />
+
+    <meta
+      property="og:title"
+      content="Boudoir Photography Cyprus | Loved Photography"
+    />
+    <meta
+      property="og:description"
+      content="Empowering boudoir photography sessions for women in Cyprus. Celebrate your confidence and sensuality."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="" />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "ProfessionalService",
+        "name": "Loved Photography",
+        "description": "Empowering boudoir photography sessions for women in Cyprus",
+        "serviceType": "Boudoir Photography",
+        "areaServed": ["Paphos", "Limassol", "Larnaca", "Nicosia", "Ayia Napa"],
+        "address": {
+          "@type": "PostalAddress",
+          "addressCountry": "CY"
+        }
+      }
+    </script>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500&family=Playfair+Display:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <style>
+      :root {
+        --font-primary: "Cormorant Garamond", serif;
+        --font-heading: "Playfair Display", serif;
+        --color-dark: #0a0608;
+        --color-light: #faf8f6;
+        --rose-gold: #d4a5a5;
+        --champagne: #f7e7ce;
+        --blush: #e8c4c4;
+        --pearl: #f5f0eb;
+        --silk: #e6d5d5;
+        --burgundy: #5c3a41;
+      }
+
+      body {
+        font-family: var(--font-primary);
+        background-color: var(--color-dark);
+        color: var(--pearl);
+        font-size: 1.6rem;
+        line-height: 2;
+        letter-spacing: 0.5px;
+      }
+
+      h1,
+      h2,
+      h3,
+      .btn {
+        font-family: var(--font-heading);
+      }
+
+      h1 {
+        font-size: 4rem;
+        line-height: 1.2;
+        text-shadow: 0 3px 30px rgba(201, 166, 141, 0.5),
+          0 0 60px rgba(201, 166, 141, 0.25),
+          0 1px 20px rgba(212, 165, 165, 0.3);
+        color: #f4d9d0;
+      }
+      h2 {
+        font-size: 3rem;
+        text-shadow: 0 2px 20px rgba(212, 165, 165, 0.3);
+        color: var(--champagne);
+      }
+      h3 {
+        font-size: 2.4rem;
+        text-shadow: 0 2px 15px rgba(212, 165, 165, 0.3);
+        color: var(--blush);
+      }
+
+      .lead {
+        font-size: 1.9rem;
+        text-shadow: 0 2px 15px rgba(0, 0, 0, 0.6),
+          0 1px 8px rgba(201, 166, 141, 0.2);
+        color: #f4d9d0;
+        line-height: 1.8;
+      }
+
+      .quote {
+        font-size: 1.9rem;
+        line-height: 1.6;
+        text-shadow: 0 3px 30px rgba(201, 166, 141, 0.5),
+          0 0 60px rgba(201, 166, 141, 0.25),
+          0 1px 20px rgba(212, 165, 165, 0.3);
+      }
+
+      .hero {
+        background: linear-gradient(
+          180deg,
+          #0d0d0d 0%,
+          #1a1520 50%,
+          rgba(92, 58, 65, 0.85) 100%
+        );
+        padding: 40px 0 120px 0;
+        border-bottom: 1px solid rgba(255, 183, 183, 0.75);
+        border-top: 1px solid rgba(201, 166, 141, 0.15);
+      }
+
+      .hero::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background: radial-gradient(
+            ellipse at 30% 50%,
+            rgba(201, 166, 141, 0.2) 0%,
+            transparent 50%
+          ),
+          radial-gradient(
+            ellipse at 70% 80%,
+            rgba(212, 165, 165, 0.15) 0%,
+            transparent 50%
+          ),
+          radial-gradient(
+            ellipse at 50% 20%,
+            rgba(201, 166, 141, 0.12) 0%,
+            transparent 40%
+          );
+        pointer-events: none;
+        animation: shimmer 8s ease-in-out infinite;
+      }
+
+      .hero::after {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background-image: repeating-linear-gradient(
+            90deg,
+            transparent,
+            transparent 1px,
+            rgba(201, 166, 141, 0.04) 1px,
+            rgba(201, 166, 141, 0.04) 2px
+          ),
+          repeating-linear-gradient(
+            0deg,
+            transparent,
+            transparent 1px,
+            rgba(201, 166, 141, 0.04) 1px,
+            rgba(201, 166, 141, 0.04) 2px
+          );
+        pointer-events: none;
+        opacity: 0.4;
+      }
+
+      @keyframes shimmer {
+        0%,
+        100% {
+          opacity: 1;
+        }
+        50% {
+          opacity: 0.8;
+        }
+      }
+
+      .hero-content {
+        position: relative;
+        z-index: 3;
+      }
+
+      .hero-subtitle {
+        font-size: 2.2rem;
+        color: #c9a68d;
+        font-weight: 300;
+        letter-spacing: 4px;
+        /* text-shadow: 0 2px 15px rgba(201, 166, 141, 0.6), 0 0 30px rgba(201, 166, 141, 0.3); */
+      }
+
+      .hero-description {
+        font-size: 1.9rem;
+        color: #f4d9d0;
+        line-height: 1.8;
+        text-shadow: 0 2px 15px rgba(0, 0, 0, 0.6),
+          0 1px 8px rgba(201, 166, 141, 0.2);
+      }
+
+      .bg-intro {
+        background: linear-gradient(
+            180deg,
+            rgba(92, 58, 65, 0.95) 0%,
+            rgba(72, 48, 58, 0.98) 100%
+          ),
+          radial-gradient(
+            ellipse at 50% 50%,
+            rgba(212, 165, 165, 0.1) 0%,
+            transparent 70%
+          );
+        padding: 120px 0;
+        border-bottom: 1px solid rgba(255, 183, 183, 0.15);
+      }
+
+      .bg-intro::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background-image: radial-gradient(
+            circle at 20% 30%,
+            rgba(247, 231, 206, 0.08) 0%,
+            transparent 40%
+          ),
+          radial-gradient(
+            circle at 80% 70%,
+            rgba(212, 165, 165, 0.08) 0%,
+            transparent 40%
+          );
+        pointer-events: none;
+      }
+
+      .bg-intro::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 50%;
+        width: 1px;
+        height: 100%;
+        background: linear-gradient(
+          to bottom,
+          transparent,
+          rgba(212, 165, 165, 0.3) 50%,
+          transparent
+        );
+        pointer-events: none;
+      }
+
+      .intro-headline {
+        font-size: 2.8rem;
+        line-height: 1.4;
+        max-width: 900px;
+        font-weight: 400;
+        text-shadow: 0 3px 20px rgba(212, 165, 165, 0.4);
+        color: var(--champagne);
+      }
+
+      .bg-confidence {
+        background: linear-gradient(
+            180deg,
+            rgba(58, 38, 48, 0.97) 0%,
+            rgba(72, 48, 58, 0.97) 100%
+          ),
+          radial-gradient(
+            ellipse at 30% 40%,
+            rgba(232, 196, 196, 0.12) 0%,
+            transparent 60%
+          );
+        padding: 120px 0;
+        border-bottom: 1px solid rgba(232, 196, 196, 0.12);
+      }
+
+      .bg-confidence::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background-image: repeating-linear-gradient(
+          45deg,
+          transparent,
+          transparent 40px,
+          rgba(232, 196, 196, 0.02) 40px,
+          rgba(232, 196, 196, 0.02) 41px
+        );
+        pointer-events: none;
+      }
+
+      .bg-sensuality {
+        background: linear-gradient(
+            180deg,
+            rgba(48, 33, 48, 0.97) 0%,
+            rgba(62, 43, 58, 0.97) 100%
+          ),
+          radial-gradient(
+            ellipse at 70% 60%,
+            rgba(212, 165, 184, 0.12) 0%,
+            transparent 60%
+          );
+        padding: 120px 0;
+        border-bottom: 1px solid rgba(212, 165, 184, 0.12);
+      }
+
+      .bg-sensuality::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background-image: repeating-linear-gradient(
+          -45deg,
+          transparent,
+          transparent 40px,
+          rgba(212, 165, 184, 0.02) 40px,
+          rgba(212, 165, 184, 0.02) 41px
+        );
+        pointer-events: none;
+      }
+
+      .bg-power {
+        background: linear-gradient(
+            180deg,
+            rgba(52, 43, 48, 0.97) 0%,
+            rgba(66, 53, 58, 0.97) 100%
+          ),
+          radial-gradient(
+            ellipse at 50% 50%,
+            rgba(201, 166, 141, 0.12) 0%,
+            transparent 60%
+          );
+        padding: 120px 0;
+        border-bottom: 1px solid rgba(201, 166, 141, 0.12);
+      }
+
+      .bg-power::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background-image: repeating-linear-gradient(
+          90deg,
+          transparent,
+          transparent 40px,
+          rgba(201, 166, 141, 0.02) 40px,
+          rgba(201, 166, 141, 0.02) 41px
+        );
+        pointer-events: none;
+      }
+
+      .bg-celebration {
+        background: linear-gradient(
+            180deg,
+            rgba(56, 43, 48, 0.97) 0%,
+            rgba(72, 56, 62, 0.97) 100%
+          ),
+          radial-gradient(
+            ellipse at 40% 50%,
+            rgba(232, 180, 168, 0.12) 0%,
+            transparent 60%
+          );
+        padding: 120px 0;
+        border-bottom: 1px solid rgba(232, 180, 168, 0.12);
+      }
+
+      .bg-celebration::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background-image: repeating-linear-gradient(
+          135deg,
+          transparent,
+          transparent 40px,
+          rgba(232, 180, 168, 0.02) 40px,
+          rgba(232, 180, 168, 0.02) 41px
+        );
+        pointer-events: none;
+      }
+
+      .bg-book {
+        background: linear-gradient(
+            135deg,
+            rgba(92, 58, 65, 0.95) 0%,
+            rgba(107, 77, 90, 0.95) 100%
+          ),
+          radial-gradient(
+            ellipse at center,
+            rgba(247, 231, 206, 0.15) 0%,
+            transparent 60%
+          );
+        padding: 120px 0;
+        border-top: 1px solid rgba(212, 165, 165, 0.3);
+      }
+
+      .bg-book::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background: radial-gradient(
+            circle at 30% 40%,
+            rgba(212, 165, 165, 0.2) 0%,
+            transparent 40%
+          ),
+          radial-gradient(
+            circle at 70% 60%,
+            rgba(247, 231, 206, 0.15) 0%,
+            transparent 40%
+          );
+        pointer-events: none;
+        animation: pulse 6s ease-in-out infinite;
+      }
+
+      .bg-book::after {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background-image: repeating-linear-gradient(
+            0deg,
+            transparent,
+            transparent 2px,
+            rgba(212, 165, 165, 0.05) 2px,
+            rgba(212, 165, 165, 0.05) 4px
+          ),
+          repeating-linear-gradient(
+            90deg,
+            transparent,
+            transparent 2px,
+            rgba(212, 165, 165, 0.05) 2px,
+            rgba(212, 165, 165, 0.05) 4px
+          );
+        pointer-events: none;
+        opacity: 0.3;
+      }
+
+      @keyframes pulse {
+        0%,
+        100% {
+          opacity: 1;
+        }
+        50% {
+          opacity: 0.7;
+        }
+      }
+
+      .content-block {
+        max-width: 800px;
+      }
+
+      .btn-cta {
+        background: linear-gradient(
+          135deg,
+          var(--rose-gold) 0%,
+          var(--blush) 100%
+        );
+        color: var(--burgundy);
+        border: none;
+        letter-spacing: 2px;
+        font-size: 1.3rem;
+        padding: 20px 50px;
+        min-width: 320px;
+        font-weight: 600;
+        transition: all 0.5s ease;
+        box-shadow: 0 8px 30px rgba(212, 165, 165, 0.4),
+          inset 0 1px 0 rgba(255, 255, 255, 0.3),
+          inset 0 -1px 0 rgba(0, 0, 0, 0.2);
+        border-radius: 0;
+      }
+
+      .btn-cta::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: -100%;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(
+          90deg,
+          transparent,
+          rgba(255, 255, 255, 0.3),
+          transparent
+        );
+        transition: left 0.7s ease;
+      }
+
+      .btn-cta:hover::before {
+        left: 100%;
+      }
+
+      .btn-cta:hover {
+        background: linear-gradient(
+          135deg,
+          var(--blush) 0%,
+          var(--rose-gold) 100%
+        );
+        color: var(--burgundy);
+        transform: translateY(-2px);
+        box-shadow: 0 12px 40px rgba(212, 165, 165, 0.6),
+          inset 0 1px 0 rgba(255, 255, 255, 0.4),
+          inset 0 -1px 0 rgba(0, 0, 0, 0.2);
+      }
+
+      footer {
+        border-top: 1px solid rgba(244, 217, 208, 0.2);
+        background: linear-gradient(180deg, #0d0d0d 0%, #1a1520 100%);
+        padding: 4rem 0;
+      }
+
+      .footer-text {
+        color: #c9a68d;
+        font-size: 1rem;
+        letter-spacing: 1.5px;
+        font-weight: 300;
+      }
+
+      .footer-location {
+        font-size: 0.9rem;
+        opacity: 0.7;
+      }
+
+      @media (max-width: 768px) {
+        h1 {
+          font-size: 2.5rem;
+          line-height: 1.3;
+        }
+        h2 {
+          font-size: 2rem;
+        }
+        h3 {
+          font-size: 1.6rem;
+        }
+        body {
+          font-size: 1.2rem;
+        }
+        .lead {
+          font-size: 1.3rem;
+        }
+        .quote {
+          font-size: 1.5rem;
+        }
+        .hero-subtitle {
+          font-size: 1.4rem;
+          letter-spacing: 2px;
+        }
+        .hero-description {
+          font-size: 1.4rem;
+        }
+        .intro-headline {
+          font-size: 1.8rem;
+        }
+        .btn-cta {
+          min-width: 280px;
+          font-size: 1.2rem;
+          padding: 16px 35px;
+          letter-spacing: 1.5px;
+        }
+        .hero,
+        .bg-intro,
+        .bg-confidence,
+        .bg-sensuality,
+        .bg-power,
+        .bg-celebration,
+        .bg-book {
+          padding: 80px 0;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header
+      class="hero text-center text-white position-relative d-flex align-items-center"
+    >
+      <div class="container hero-content">
+        <p class="hero-subtitle text-uppercase mb-4">This Is Your Moment</p>
+        <h1 class="display-3 fw-bold mb-5 text-white">
+          Feel Seen.<br />Feel Desired.<br />Feel Like <em>Her.</em>
+        </h1>
+        <p class="hero-description mb-5 mx-auto">
+          You know that version of yourself you see in your mind?
+          <br />Confident. Magnetic. Unapologetically beautiful. <br />She's not
+          a fantasy—she's you. <br />And she's been waiting to be discovered.
+          <br />Are you ready to meet her?
+        </p>
+        <a
+          href="https://docs.google.com/forms/d/e/1FAIpQLSd8xAQvTU14ZgTKGZP_UXbWS9u-gP2fyXIP6OmEva5j2F77Gg/viewform?usp=dialog"
+          class="btn btn-cta btn-lg text-uppercase position-relative overflow-hidden"
+          >Yes, I'm Ready</a
+        >
+      </div>
+    </header>
+
+    <section
+      class="bg-intro text-center position-relative d-flex align-items-center"
+    >
+      <div class="container">
+        <h2 class="intro-headline mx-auto">
+          This isn't just a photoshoot.<br />
+          It's permission to feel <em>everything</em> you've been holding back.
+        </h2>
+      </div>
+    </section>
+
+    <section class="bg-confidence position-relative d-flex align-items-center">
+      <div class="container">
+        <div class="content-block text-center mx-auto position-relative">
+          <h3 class="display-3 fw-bold text-white mb-5">
+            <em>Your</em> Confidence.
+          </h3>
+          <p class="quote text-white mb-5">
+            "I want to feel beautiful in my own skin"
+          </p>
+          <p class="lead mb-5">
+            Imagine stepping into a softly lit studio, the scent of roses in the
+            air, your favorite music playing low in the background. You're
+            wrapped in silk, guided gently into poses that make you feel like a
+            goddess. With every click of the camera, you shed doubt and step
+            deeper into your power. You don't just look confident—you feel it in
+            your bones.
+          </p>
+          <a
+            href="https://docs.google.com/forms/d/e/1FAIpQLSd8xAQvTU14ZgTKGZP_UXbWS9u-gP2fyXIP6OmEva5j2F77Gg/viewform?usp=dialog"
+            class="btn btn-cta text-uppercase position-relative overflow-hidden"
+            >Feel This Confidence</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-sensuality position-relative d-flex align-items-center">
+      <div class="container">
+        <div class="content-block text-center mx-auto position-relative">
+          <h3 class="display-3 fw-bold text-white mb-5">
+            <em>Your</em> Sensuality.
+          </h3>
+          <p class="quote text-white mb-5">
+            "I want to reconnect with my sensual side"
+          </p>
+          <p class="lead mb-5">
+            It's the way your skin tingles under lace, the way your body curves
+            into the light. You're not performing—you're remembering.
+            Remembering the way desire lives in your fingertips, the way your
+            hips sway when no one's watching. This is your moment to feel
+            deliciously alive, to flirt with your own reflection, and to fall in
+            love with your sensual self all over again.
+          </p>
+          <a
+            href="https://docs.google.com/forms/d/e/1FAIpQLSd8xAQvTU14ZgTKGZP_UXbWS9u-gP2fyXIP6OmEva5j2F77Gg/viewform?usp=dialog"
+            class="btn btn-cta text-uppercase position-relative overflow-hidden"
+            >Embrace Your Sensuality</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-power position-relative d-flex align-items-center">
+      <div class="container">
+        <div class="content-block text-center mx-auto position-relative">
+          <h3 class="display-3 fw-bold text-white mb-5">
+            <em>Your</em> Feminine Power.
+          </h3>
+          <p class="quote text-white mb-5">
+            "I want to feel strong, bold, and fearless"
+          </p>
+          <p class="lead mb-5">
+            You've been through things. You've grown, stretched, persevered. And
+            now, you stand tall—barefoot, bold, and beautifully unfiltered. This
+            isn't about perfection. It's about truth. The camera doesn't just
+            capture your body—it captures your story. Every scar, every smile,
+            every fierce glance says: "I'm still here. And I'm stronger than
+            ever."
+          </p>
+          <a
+            href="https://docs.google.com/forms/d/e/1FAIpQLSd8xAQvTU14ZgTKGZP_UXbWS9u-gP2fyXIP6OmEva5j2F77Gg/viewform?usp=dialog"
+            class="btn btn-cta text-uppercase position-relative overflow-hidden"
+            >Claim Your Power</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-celebration position-relative d-flex align-items-center">
+      <div class="container">
+        <div class="content-block text-center mx-auto position-relative">
+          <h3 class="display-3 fw-bold text-white mb-5">
+            <em>Your</em> Celebration.
+          </h3>
+          <p class="quote text-white mb-5">
+            "I want to mark this moment in my life"
+          </p>
+          <p class="lead mb-5">
+            Maybe it's your birthday. Maybe you just left a relationship. Maybe
+            you woke up and decided you deserve to be celebrated. You sip
+            champagne, laugh with your photographer, and feel the warmth of
+            being seen. This is your ribbon-cutting ceremony for a new chapter.
+            A love letter to yourself, written in light and shadow.
+          </p>
+          <a
+            href="https://docs.google.com/forms/d/e/1FAIpQLSd8xAQvTU14ZgTKGZP_UXbWS9u-gP2fyXIP6OmEva5j2F77Gg/viewform?usp=dialog"
+            class="btn btn-cta text-uppercase position-relative overflow-hidden"
+            >Celebrate Yourself</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <section
+      id="book"
+      class="bg-book text-center position-relative overflow-hidden d-flex align-items-center"
+    >
+      <div class="container position-relative">
+        <p class="hero-subtitle text-uppercase mb-4">Your Story Starts Here</p>
+        <h2 class="display-3 fw-bold mb-5 text-white">
+          You deserve to feel<br />like <em>that</em> woman.<br />Today.
+        </h2>
+        <p class="hero-description mb-5 mx-auto">
+          Not when you lose weight.
+          <br />Not when everything's perfect. <br />Not someday. <br />Right
+          now, exactly as you are, you deserve to be celebrated. <br />To be
+          seen. <br />To remember what it feels like to choose yourself.
+        </p>
+        <a
+          href="https://docs.google.com/forms/d/e/1FAIpQLSd8xAQvTU14ZgTKGZP_UXbWS9u-gP2fyXIP6OmEva5j2F77Gg/viewform?usp=dialog"
+          class="btn btn-cta btn-lg text-uppercase position-relative overflow-hidden"
+          >Schedule Your Free Consultation</a
+        >
+      </div>
+    </section>
+
+    <footer class="text-center">
+      <div class="container">
+        <p class="footer-text mb-0">
+          © 2025 LOVED PHOTOGRAPHY | BOUDOIR PHOTOGRAPHY IN CYPRUS
+        </p>
+        <p class="footer-text footer-location mb-0 mt-2">
+          Paphos · Limassol · Larnaca · Nicosia · Ayia Napa
+        </p>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
